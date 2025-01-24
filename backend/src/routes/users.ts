@@ -24,7 +24,7 @@ router.post(
       return;
     }
     try {
-      const user = await UserActivation.findOne({
+      const user = await User.findOne({
         email: req.body.email,
       });
 
