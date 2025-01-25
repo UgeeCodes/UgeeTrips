@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-import UserActivation from "../models/UserActivation";
 import User from "../models/user";
 import jwt from "jsonwebtoken";
 import { check, validationResult } from "express-validator";
