@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 import { useSearchContext } from "../context/SearchContext";
 import * as apiClient from "../api-client";
 import { useState } from "react";
-import SearchResultsCard from "../context/SearchResultsCard";
+import SearchResultsCard from "../components/SearchResultsCard";
 import Pagination from "../components/Pagination";
 import StarRatingFilter from "../components/StarRatingFilter";
 import HotelTypesFilter from "../components/HotelTypesFilter";
