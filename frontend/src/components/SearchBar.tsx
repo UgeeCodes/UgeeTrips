@@ -1,5 +1,5 @@
 import { FormEvent, useState } from "react";
-import { useSearchContext } from "../context/SearchContext";
+import { useSearchContext } from "../contexts/SearchContext";
 import { MdTravelExplore } from "react-icons/md";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -94,7 +94,7 @@ const SearchBar = () => {
           endDate={checkOut}
           minDate={minDate}
           maxDate={maxDate}
-          placeholderText="Check-in Date"
+          placeholderText="Check-out Date"
           wrapperClassName="min-w-full"
         />
       </div>

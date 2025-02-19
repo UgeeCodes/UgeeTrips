@@ -1,8 +1,8 @@
 import { useForm } from "react-hook-form";
 import DatePicker from "react-datepicker";
 import { useLocation, useNavigate } from "react-router-dom";
-import { useSearchContext } from "../../context/SearchContext";
-import { useAppContext } from "../../context/AppContext";
+import { useSearchContext } from "../../contexts/SearchContext";
+import { useAppContext } from "../../contexts/AppContext";
 
 type Props = {
   hotelId: string;

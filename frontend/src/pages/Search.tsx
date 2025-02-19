@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { useSearchContext } from "../context/SearchContext";
+import { useSearchContext } from "../contexts/SearchContext";
 import * as apiClient from "../api-client";
 import { useState } from "react";
 import SearchResultsCard from "../components/SearchResultsCard";
